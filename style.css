@@ -1,0 +1,54 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color:aquamarine;
+}
+   .container {
+    display: flex;
+   }
+
+.box{
+    background-color: azure;
+    height: 350px;
+    width:600px;
+    text-align: center;
+    border-radius: 10PX;
+    border: 3PX SOLID black;
+    margin:100px;
+
+}
+
+h3{
+    font-size: 30PX;
+    color: blue;
+    font-weight: bolder;
+}
+
+.side-box{
+    height: 350px;
+    width:500px;
+    text-align: center;
+    margin:100px;
+}
+
+#secon-head{
+    font-size:50px;
+}
+
+.small-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.letter-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
